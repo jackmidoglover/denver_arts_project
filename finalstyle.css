@@ -1,0 +1,99 @@
+#hero-image {
+    width: 100%; 
+    background-image: url('./face-guy.jpg');
+    height: 700px;
+    background-size: cover;
+    background-position: 60% 60%;
+    position: relative; 
+    top: 0;
+}
+
+#main-logo {
+    color: white;
+    font-size: 180px; 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#subtext {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+}
+#show-info {
+    width: 60%;
+    float: left;
+}
+
+#add-info {
+    width: 25%;
+    float: left;
+    font-size: 22px;
+    padding: 40px;
+}
+
+#show-info {
+    padding: 50px;
+    border-right: 2px solid black;
+}
+
+.sub-headings {
+    color: tomato;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+    float: right;
+}
+
+#show-description {
+    font-size: 30px;
+    padding: 0 90px;
+}
+
+#cast-list {
+    float: left;
+    font-size: 28px;
+    padding-left: 240px;
+}
+
+.cast-info {
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.schedule{
+    border: 1px solid black;
+    margin-left: 100px;
+}
+
+.schedule > thead th {
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.schedule > thead th:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.schedule > tbody td:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.schedule > tbody td {
+    padding: 20px;
+}
